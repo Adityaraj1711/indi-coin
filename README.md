@@ -38,9 +38,8 @@ This view shows a list of all wallets in the system. The wallets are stored in a
 List of every single transaction in the blockchain
 
 ### Nodes index
-
 List of all registered nodes
-
+Resolve nodes to get the longest chain sustained.
 ### Account view
 
 View user's account and all the wallets they own
