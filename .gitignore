@@ -1,0 +1,14 @@
+media/
+.vscode/
+.env
+keys
+staticfiles/
+**/__pycache__
+**__pycache__
+geckodriver.log
+voidcoin_dev.log
+voidcoin_prod.log
+voidcoin_stage.log
+htmlcov
+.coveragestaticfiles
+db.sqlite3

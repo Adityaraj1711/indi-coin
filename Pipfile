@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pygments = "*"
+django-debug-toolbar = "*"
+django-pure-pagination = "*"
+python-decouple = "*"
+requests = "*"
+django-extensions = "*"
+pycrypto = "*"
+markdown = "*"
+
+[dev-packages]
+pycryptodome = "*"
+
+[requires]
+python_version = "3.6"

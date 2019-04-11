@@ -1,0 +1,19 @@
+{% extends "indicoin_base.html" %}
+{% block title %}Chain object{% endblock title %}
+{% block introduction %}{% endblock introduction %}
+{% load static %}
+
+{% block content_content %}
+
+<h1>Chain object</h1>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active">Chain object</li>
+    </ol>
+</nav>
+
+{{ blockchain }}
+
+{% endblock content_content %}
